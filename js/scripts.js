@@ -1,5 +1,4 @@
 
-
 function switchTopping() {
   if (document.getElementById('toppings')) {
 
@@ -31,4 +30,20 @@ function switchTopping() {
         }
       }
     }
+    function switchDeluxe() {
+      if (document.getElementById('deluxe')) {
     
+          if (document.getElementById('deluxe').style.display == 'none') {
+              document.getElementById('toppings').style.display = 'none';
+              document.getElementById('classic').style.display = 'none';
+              document.getElementById('deluxe').style.display = 'block';
+          }
+          else {
+              document.getElementById('toppings').style.display = 'none';
+              document.getElementById('classic').style.display = 'none';
+              document.getElementById('deluxe').style.display = 'block';
+          }
+        }
+      }
+      
+      
