@@ -73,3 +73,10 @@
   border:1cm;
   border-radius: 2ex;
 }
+
+#menu-title{
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
