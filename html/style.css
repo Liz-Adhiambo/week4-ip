@@ -149,3 +149,131 @@ select {
   padding-top: 3%;
   padding-bottom: 3%;
 }
+
+/*menu.html*/
+.home-page{
+  height: 100vh;
+  width:100%;
+  background-image: url(/img/p3.jpg);
+ 
+}
+
+/*navbar section*/
+
+.navbar {
+  background: rgba(0,0,0,0.4) !important;
+  min-height: fit-content;
+}
+
+.navbar .navbar-brand {
+
+  font-weight: bolder;
+  color: #cdcdcd;
+  font-size: 1.3em;
+  margin-left: 5%;
+}
+.navbar-text {
+  font-family: 'Kaushan Script', cursive;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.navbar-text:hover {
+  color: #330000;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.navbar .nav-item a {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  color: #cdcdcd;
+  font-weight: bolder;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.nav-item:hover a {
+  color: #ffffff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.logo img {
+  margin-left: auto;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.logo:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*landing page content section*/
+
+.content{
+  width: 500px;
+  color: #ffffff;
+  border:1cm;
+  border-radius: 2ex;
+}
+
+.content p {
+  font-family: 'Capriola', sans-serif;
+  font-size: 24px;
+}
+.text-style{
+    position: relative;
+    display: flex;
+    color: rgb(87, 9, 9);
+    font-weight: 900;
+    
+  }
+
+#menu-title{
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+#menu ul{
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.btn{background-color: rgb(4, 5, 5);
+  color: rgb(231, 98, 116);
+  
+}
+
+.btn:hover{
+  background-color: rgb(97, 7, 26);
+  color: rgb(2, 2, 2);
+}
+
+/*menu section*/
+#myDiv{
+  background:rgb(5, 0, 0);
+  color: rgb(252, 252, 252);
+}
+
+#myDiv{
+  visibility:initial;
+}
