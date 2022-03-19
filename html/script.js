@@ -1,4 +1,10 @@
-
+// user interface logic
+$(document).ready(function() {
+    $("#order-online").click(function() {
+        $(".view-two").show();
+        $(".view-one").hide();
+    })
+});
 
 //business interface logic
 function Pizza(pizza, size, crust, toppings,) {
@@ -29,4 +35,32 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
             location.reload();
             alert("Please select a pizza size");
     };
+    switch (pizzaCrust) {
+        case "":
+            priceCrust = 0;
+            break;
+        case "crispy":
+            priceCrust = 100;
+            break;
+        case "stuffed":
+            priceCrust = 200;
+            break;
+        case "gluten":
+            priceCrust = 150;
+            break;
+        default:
+            location.reload();
+            alert("Please choose a crust");
+    };
   
+    if (pizzaSize == 'large') {
+        priceTopping = pizzaTopping.length * 150;
+    } else if (pizzaSize == 'medium') {
+        priceTopping = pizzaTopping.length * 100;
+    } else if (pizzaSize == 'small') {
+        priceTopping = pizzaTopping.length * 50;
+    }
+  
+    var pizzaTotal = priceSize + priceCrust + priceTopping;
+    return pizzaTotal;
+  }  
