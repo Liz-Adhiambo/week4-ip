@@ -125,7 +125,7 @@
   visibility:initial;
 }
 #about-us{
-  background-color: #030000;
+  background-color: #fcf9f9;
   opacity: 1;
   color:rgb(97, 7, 26);
   text-align: center;
@@ -133,51 +133,60 @@
   font-weight: bold;
 }
 
+#cont{
+  background-color: #050202;
+  color:rgb(97, 7, 26);
+}
+
 /*footer*/
 .contact-us {
-  
+
   text-align: center;
   padding-bottom: 9%;
-  color: #faf5f5;
+  
 }
 
 .form-control::placeholder {
-  color: #050202;
+  color:rgb(97, 7, 26);
   font-family: 'Sarabun', sans-serif;
   font-weight: 700;
+  
 }
 #userName {
-  border-radius: 0px;
-  color: #000;
+  border-radius: 5px;
+  color:rgb(97, 7, 26);
   font-family: 'Sarabun', sans-serif;
   font-weight: 700;
+  margin-bottom: 1cm;
 }
 #inputEmail {
-  border-radius: 0px;
+  border-radius: 5px;
+  margin-bottom: 1cm;
   color: #000;
   font-family: 'Sarabun', sans-serif;
   font-weight: 700;
 }
 #userMessage {
-  border-radius: 0px;
+  border-radius: 5px;
   color: #000;
   font-family: 'Sarabun', sans-serif;
   font-weight: 700;
+  margin-bottom: 1cm;
 }
 
 #submit {
-  background: #cdcdcd;
-  border: solid #b4b4b4 1px;
+  background:#f8f6f6;
+  
   border-radius: 50px;
-  color: #4a4741;
+  color:rgb(97, 7, 26);
   font-family: 'Sarabun', sans-serif;
   font-weight: 700;
   text-align: center;
 }
 #submit:hover {
-  background: #8ebea7;
-  border: solid #4eb583 1px;
-  color: #4a4741;
+  background: #330000;
+  border: solid #020202 1px;
+  color: #020202;
 }
 .footer {
   background: url('../images/footerimg1.png');
