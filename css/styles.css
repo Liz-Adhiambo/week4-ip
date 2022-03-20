@@ -2,7 +2,7 @@
   height: 100vh;
   width:100%;
  background-color: #000;
- background-image: url(/img/b6.jpg);
+ background-image: url(/img/bb3.jpg);
  
 }
 
@@ -226,6 +226,10 @@
   font-size: 15px;
   color:rgb(97, 7, 26);
   font-weight: bolder;
+
+}
+
+span{color:rgb(97, 7, 26);
 
 }
   

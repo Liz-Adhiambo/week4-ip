@@ -56,4 +56,6 @@ function switchTopping() {
         }
       }
       
-      
+      $("#sub").click(function() {
+        alert("We value your response");
+    })

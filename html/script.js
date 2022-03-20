@@ -127,3 +127,5 @@ $(document).ready(function() {
       $(".view-four").slideDown();
   })
 })
+
+//contact us message

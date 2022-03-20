@@ -215,3 +215,23 @@ select {
 #myDiv{
   visibility:initial;
 }
+
+.button {
+  background:#f8f6f6;
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  border-radius: 50px;
+  color:rgb(97, 7, 26);
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.button:hover {
+  background: #330000;
+  border: solid #020202 1px;
+  color: #020202;
+}
+
+#pick-up{
+  width: 5cm;
+}
