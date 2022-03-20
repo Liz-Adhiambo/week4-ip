@@ -4,7 +4,7 @@ Elizabeth Adhiambo Onyango
 
 
 # L's Pizzeria
-At Delani Studio, Africans express experiences in its arts and crafts.
+At L's Pizzeria satisfaction and a great customer experience is guaranteed.
 
 ## Description
 This is a Pizza online restuarant for ordering pizzas online. The website is designed with html, css and Javascript. Customers are able to order an unlimited number of pizzas,choose their desired topping and decide whether to pick the pizza or have it delivered.
@@ -31,7 +31,7 @@ This is a Pizza online restuarant for ordering pizzas online. The website is des
 
 ## Screenshot
 ![Screenshot](/img/Screenshot%20from%202022-03-21%2001-36-18.png)
-![screenshot](/img/Screenshot%20from%202022-03-21%2001-36-34.png)
+![screenshot](/img/Screenshot%20from%202022-03-21%2001-36-26.png)
 
 ## Contact
 
