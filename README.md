@@ -31,6 +31,7 @@ This is a Pizza online restuarant for ordering pizzas online. The website is des
 
 ## Screenshot
 ![Screenshot](/img/Screenshot%20from%202022-03-21%2001-36-18.png)
+![screenshot](/img/Screenshot%20from%202022-03-21%2001-36-34.png)
 
 ## Contact
 
