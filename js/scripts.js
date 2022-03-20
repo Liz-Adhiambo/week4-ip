@@ -1,3 +1,13 @@
+$(document).ready(function() {
+  $("#classic").click(function() {
+      $(".pizzas").show();
+      $(".tops").hide();
+      $(".crusts").hide();
+  })})
+
+
+
+
 
 function switchTopping() {
   if (document.getElementById('toppings')) {

@@ -2,12 +2,14 @@
   height: 100vh;
   width:100%;
   background-image: url(/img/p3.jpg);
+ 
 }
 
 /*navbar section*/
 
 .navbar {
   background: rgba(0,0,0,0.4) !important;
+  min-height: fit-content;
 }
 
 .navbar .navbar-brand {
@@ -25,7 +27,7 @@
   transition: all 0.3s ease-in;
 }
 .navbar-text:hover {
-  color: #ffffff;
+  color: #330000;
   cursor: pointer;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -74,6 +76,18 @@
   border-radius: 2ex;
 }
 
+.content p {
+  font-family: 'Capriola', sans-serif;
+  font-size: 24px;
+}
+.text-style{
+    position: relative;
+    display: flex;
+    color: rgb(87, 9, 9);
+    font-weight: 900;
+    
+  }
+
 #menu-title{
   width: 100%;
   text-align: center;
@@ -101,26 +115,101 @@
   color: rgb(2, 2, 2);
 }
 
-.button {
-  background-color: rgba(53, 13, 13, 0.5);
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  padding-right: 30px;
-  margin-right: 1%;
-  margin-bottom: 1%;
+/*menu section*/
+#myDiv{
+  background:rgb(5, 0, 0);
+  color: rgb(252, 252, 252);
+}
+
+#myDiv{
+  visibility:initial;
+}
+#about-us{
+  background-color: #030000;
+  opacity: 1;
+  color:rgb(97, 7, 26);
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: larger;
+  font-weight: bold;
 }
 
-.button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+/*footer*/
+.contact-us {
+  
+  text-align: center;
+  padding-bottom: 9%;
+  color: #faf5f5;
 }
 
-.view-two,
-.view-three,
-.view-four {
-  display: none;
+.form-control::placeholder {
+  color: #050202;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+#userName {
+  border-radius: 0px;
+  color: #000;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+#inputEmail {
+  border-radius: 0px;
+  color: #000;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+#userMessage {
+  border-radius: 0px;
+  color: #000;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+}
+
+#submit {
+  background: #cdcdcd;
+  border: solid #b4b4b4 1px;
+  border-radius: 50px;
+  color: #4a4741;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+#submit:hover {
+  background: #8ebea7;
+  border: solid #4eb583 1px;
+  color: #4a4741;
+}
+.footer {
+  background: url('../images/footerimg1.png');
+}
+.links {
+  padding-top: 3%;
+  text-align: center;
+  word-spacing: 20px;
+}
+.links img {
+  width: 50px;
+  word-spacing: 30px;
+}
+.branches {
+  width: 30%;
+  padding-top: 2%;
+  color: #000;
+  font-size: 9px;
+  text-align: center;
+  font-weight: bolder;
+}
+.branches h5 {
+  font-size: 10px;
+}
+.footer-text {
+  padding: 3%;
+  color: #e6deae;
+}
+.footer-text p {
+  margin:0;
+  padding:0;
+  line-height:15px;
+  text-align: center;
+  font-size: 13px;
 }
