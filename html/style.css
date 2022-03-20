@@ -159,13 +159,13 @@ select {
   padding: 8px 12px;
   margin: 5px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 .checkbox {
-  display: inline-block;
+  display:grid;
   padding-right: 15px;
   padding-bottom: 10px;
 }
@@ -173,7 +173,9 @@ select {
 .form {
   border-radius: 15px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
+  background-color: rgba(29, 5, 5, 0.5);
+  color: aliceblue;
 }
 
 .order-total {
@@ -183,7 +185,7 @@ select {
 .confirm-order {
   border: 6px solid #948473;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(27, 2, 2, 0.5);
   width: 100%;
   padding: 20px;
   text-align: center;
@@ -192,6 +194,7 @@ select {
 .table-buttons {
   padding-top: 3%;
   padding-bottom: 3%;
+  margin-bottom: 3px;
 }
 
 /*menu.html*/

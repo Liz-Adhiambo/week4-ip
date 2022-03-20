@@ -17,13 +17,13 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
           priceSize = 0;
           break;
       case "large":
-          priceSize = 1200;
+          priceSize = 1000;
           break;
       case "medium":
-          priceSize = 800;
+          priceSize = 600;
           break;
       case "small":
-          priceSize = 450;
+          priceSize = 400;
           break;
       default:
           location.reload();
@@ -34,13 +34,11 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
       case "":
           priceCrust = 0;
           break;
-      case "crispy":
+      case "thin":
           priceCrust = 100;
           break;
-      case "stuffed":
-          priceCrust = 200;
-          break;
-      case "gluten":
+      
+      case "thick":
           priceCrust = 150;
           break;
       default:
