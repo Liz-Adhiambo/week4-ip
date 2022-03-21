@@ -27,7 +27,7 @@ This is a Pizza online restuarant for ordering pizzas online. The website is des
 ![Design](/img/Screenshot%20from%202022-03-21%2001-36-34.png)
 
 ## Demo
-[Here is link to the site](https://liz2222.github.io/week3-ip/)
+[Here is link to L's Pizzeria](https://liz2222.github.io/week4-ip/)
 
 ## Screenshot
 ![Screenshot](/img/Screenshot%20from%202022-03-21%2009-29-19.png)
