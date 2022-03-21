@@ -30,8 +30,10 @@ This is a Pizza online restuarant for ordering pizzas online. The website is des
 [Here is link to the site](https://liz2222.github.io/week3-ip/)
 
 ## Screenshot
-![Screenshot](/img/Screenshot%20from%202022-03-21%2001-36-18.png)
-![screenshot](/img/Screenshot%20from%202022-03-21%2001-36-45.png)
+![Screenshot](/img/Screenshot%20from%202022-03-21%2009-29-19.png)
+![screenshot](/img/Screenshot%20from%202022-03-21%2009-29-47.png)
+![screenshot](/img/Screenshot%20from%202022-03-21%2009-30-05.png)
+
 
 ## Contact
 
